@@ -109,6 +109,8 @@ class Cupcake {
 
     public double getPrice() { return price; }
 
+    public String getName() {return "Generic Cupcake";}
+
     public void setPrice(double price) { this.price = price; }
 
     public void type() {
@@ -120,6 +122,7 @@ class RedVelvet extends Cupcake {
     public void type() {
         System.out.println("A red velvet-based cupcake, with cream cheese frosting.");
     }
+    public String getName() {return "Red Velvet Cupcake";}
 }
 
 class Chocolate extends Cupcake {
@@ -127,6 +130,7 @@ class Chocolate extends Cupcake {
     public void type() {
         System.out.println("A chocolate-based cupcake, with chocolate frosting.");
     }
+    public String getName() {return "Chocolate Cupcake";}
 }
 
 class Drink {

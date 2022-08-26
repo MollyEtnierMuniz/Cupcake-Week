@@ -58,19 +58,26 @@ public class Order
                 ///  would like to print 1st item in array.  arrays.toString? cupCakemenu.get[i]
                 if (orderChoice ==1){
                     order.add(cupcakeMenu.get(0));
-                    System.out.println("item added to order.");
+                    System.out.println(cupcakeMenu.get(0));
+                    System.out.println( cupcakeMenu.get(0).getName()  + " added to order.");
+
                 } else if (orderChoice == 2){
                     order.add (cupcakeMenu.get(1));
-                    System.out.println("item added to order.");
+                    System.out.println(cupcakeMenu.get(1).getName() + "item added to order.");
+
+
                 } else if (orderChoice == 3) {
                     order.add (cupcakeMenu.get(2));
-                    System.out.println("item added to order.");
+                    System.out.println(cupcakeMenu.get(2).getName() + "item added to order.");
+
                 } else if (orderChoice == 4) {
                     order.add(drinkMenu.get(0));
                     System.out.println("item added to order.");
+
                 } else if (orderChoice ==5) {
                     order.add (drinkMenu.get(1));
                     System.out.println("item added to order.");
+
                 } else if (orderChoice ==6) {
                     order.add(drinkMenu.get(2));
                     System.out.println("item added to order.");
